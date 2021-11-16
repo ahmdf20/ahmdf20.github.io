@@ -84,45 +84,19 @@
         </div>
       </div>
     </div>
-
-    <!-- <div class="main">
-      <div class="card">
-        <div class="fakeimg"><img src="./img/action.jpg" alt="Action" width="75%"></div>
-        <h2>Action</h2>
-        <h5>Juara, Dec 20, 2016</h5>
-        <p>
-          Ini adalah sebuah foto kenangan sewaktu saya SMP, dimana angkatan saya mendapatkan sebuah penghargaan pada
-          acara
-          PKS. Angkatan saya mendapatkan juara umum 1, dimana sebuah penghargaan ini benar-benar tidak terduga karena
-          kita
-          pikir angkatan kita kurang maksimal dalam memeriahkan PKS.
-        </p>
-      </div>
-      <br>
-      <div class="card">
-        <div class="fakeimg"><img src="./img/ulin.jpg" alt="Dayang-Sumbi" width="75%"></div>
-        <h2>Ciater Highland Resort</h2>
-        <h5>Jalan-jalan, 2020</h5>
-        <p>
-          Sebuah moment pada awal semester kelas 12, dimana kita pergi jalan-jalan ke daerah atas. Tujuan awal kami
-          adalah
-          Dayang Sumbi yang berada di daerah Tanjakan Emen. Lalu, ketika dalam perjalanan pulang, kita memiliki rencana
-          untuk berfoto di CHR, namun kita tidak ingin masuk lewat jalur depan, jadi kita pergi ke jalur belakang atau
-          jalur ilegal :''''''v <br>
-          Kita melewati pedesaan di ciater, dan berhasil masuk ke dalam. Namun, ketika sampai di tempat spot foto, kita
-          ketahuan dan keringat dingin karena ditanyai sebuah tiket masuk. Karena ketahuan lewat jalur belakang, kita
-          langsung diusir, namun kita tidak langsung pulang begitu saja, kita mengelilingi CHR dan menemukan sebuah
-          komplek villa yang kosong dan tempatnya pas untuk berfoto. <br>
-          (Jangan di tiru ya gaes:'''''V wkwkwk)
-        </p>
-      </div>
-    </div> -->
   </div>
 
   <!-- Footer -->
   <div class="footer">
-    <h2>&copy; Ahmdf20 2021 </h2>
+    <h2 id="date"></h2>
   </div>
+
+  <script>
+    const today = new Date()
+    const year = today.getFullYear()
+    const footer = document.getElementById('date')
+    footer.innerHTML = `&copy; Ahmdf20 - ` + year
+  </script>
 
 </body>
 
