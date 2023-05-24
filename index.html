@@ -11,9 +11,9 @@
 <body>
   <!-- Navigation Bar -->
   <div class="navbar">
-    <a href="https://github.com/ahmdf20">Github</a>
-    <a href="https://www.facebook.com/oo0VFelix0oo">Facebook</a>
-    <a href="https://www.instagram.com/flxvrmln_/">Instagram</a>
+    <a href="https://github.com/ahmdf20" target="_blank">Github</a>
+    <a href="https://www.facebook.com/oo0VFelix0oo" target="_blank">Facebook</a>
+    <a href="https://www.instagram.com/ahmdf__2/" target="_blank">Instagram</a>
   </div>
 
   <!-- The flexible grid (content) -->
@@ -50,17 +50,9 @@
     </div>
 
     <div class="main">
-      <div class="card" data-background="card 1">
+      <div class="card" id="canvas">
         <img src="./img/action.jpg" alt="Avatar" style="width:100%">
-        <div class="container">
-          <h4><b>Action</b> | Juara, Dec 20, 2016</h4>
-          <p>
-            Ini adalah sebuah foto kenangan sewaktu saya SMP, dimana angkatan saya mendapatkan sebuah penghargaan pada
-            acara
-            PKS. Angkatan saya mendapatkan juara umum 1, dimana sebuah penghargaan ini benar-benar tidak terduga karena
-            kita
-            pikir angkatan kita kurang maksimal dalam memeriahkan PKS.
-          </p>
+        <div class="container" >
         </div>
       </div>
       <div class="card" data-background="card 2">
@@ -91,6 +83,7 @@
     <h2 id="date"></h2>
   </div>
 
+  <script src="./js/index.js"></script>
   <script>
     const today = new Date()
     const year = today.getFullYear()
